@@ -10,7 +10,7 @@ body{
 
 .cv-box{
     width: 800px;
-    height: 1000px;
+    height: 1200px;
     margin: 0 auto;
     background-color: #fff;
 
@@ -26,7 +26,7 @@ body{
     color: #fff;
     width: 35%;
     float: left;
-    height:1000px ;
+    height:1200px ;
 }
 
 .ruthpic{
@@ -117,6 +117,59 @@ p{
     width: 50%;
 }
 
+#progress4{
+    background-color:#000;
+    border-radius: 10px;
+    height: 8px;
+   
+    padding: 3px;
+}
+
+#progress4:after{
+    content: '';
+    display: block;
+    background-color: #E75F06 ;
+    border-radius: 10px;
+    height: 8px;
+    width: 50%;
+}
+
+#progress5{
+    background-color:#000;
+    border-radius: 10px;
+    height: 8px;
+   
+    padding: 3px;
+}
+
+#progress5:after{
+    content: '';
+    display: block;
+    background-color: #E75F06 ;
+    border-radius: 10px;
+    height: 8px;
+    width: 50%;
+}
+#progress6{
+    background-color:#000;
+    border-radius: 10px;
+    height: 8px;
+   
+    padding: 3px;
+}
+
+#progress6:after{
+    content: '';
+    display: block;
+    background-color: #E75F06 ;
+    border-radius: 10px;
+    height: 8px;
+    width: 50%;
+}
+
+
+
+
 .box-2{
     width: 60%;
     float: left;
@@ -128,10 +181,15 @@ p{
 .intro{
     text-align: center;
     color: #242120 ;
+    margin-top: 50px;
+    
 }
-.intro h1{
+.intro-title {
     font-size: 40px;
     font-weight: bold;
+    box-shadow: #045989;
+    text-align: center;
+    
 }
 
 .intro p{
@@ -139,14 +197,16 @@ p{
     font-family: system-ui;
     font-weight: 400;
     font-size: 15px;
-    margin-top: -5px;
+   
+   
 }
 
 .hr{
-    height: 15px;
+    height: 10px;
     border: none;
-    background-color: #CCECE8  ;
-    margin: -45px 20px;
+    background-color: #092E39 ;
+    margin: -45px 10px 10px 10px;
+
   
 }
 
@@ -169,6 +229,7 @@ p{
     text-transform: uppercase;
     margin: 0px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .para-1{
